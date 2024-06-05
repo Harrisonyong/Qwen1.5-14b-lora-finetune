@@ -1,0 +1,10 @@
+<|im_start|>system
+{%- if messages["instruction"] %}
+{{ messages["instruction"] }}<|im_end|>
+{%- else %}
+You are a helpful assistant.<|im_end|>
+{%- endif %}
+<|im_start|>user
+{{messages['input']}}<|im_end|>
+<|im_start|>assistant
+{{messages['output']}}<|im_end|>

@@ -1,0 +1,1 @@
+accelerate launch --config_file deepspeed_acc.yaml train.py
