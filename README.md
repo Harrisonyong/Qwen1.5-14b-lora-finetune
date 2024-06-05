@@ -373,4 +373,5 @@ def merge_and_save_model(lora_dir, output_dir):
 
 1. 安装包的坑：deepspeed包0.14.2存在offload损失到不同设备的问题，在计算反向的时候，梯度数据卸载到cpu，导致计算设备报错，将版本回退到0.14.0可以解决。报错如下：
 
-   ![image-20240605165041789](/Users/admin/Library/Application Support/typora-user-images/image-20240605165041789.png)
+   <img width="1392" alt="image" src="https://github.com/Harrisonyong/Qwen1.5-14b-lora-finetune/assets/31169791/2e7fe383-0e96-45cc-9660-f265ebe43151">
+
